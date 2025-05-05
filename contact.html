@@ -36,6 +36,43 @@
     <hr>
     <main>
         <!-- Our content -->
+        <article id="Contact">
+            <section id="contactForm">
+                <h2>Our Contact Form</h2>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Send Us a Message: </legend>
+                        <p>
+                            <label for="yourName">Your Name: </label>
+                            <input type="text" id="yourName" name="yourName" placeholder="e.g. Kamran" autocomplete="on" autofocus required>
+                        </p>
+                        <p>
+                            <label for="yourName">Your Email: </label>
+                            <input type="email" id="email" name="email" placeholder="e.g. abc@gmail.com" required>
+                        </p>
+                        <p>
+                            <label for="message">Your Message:</label><br>
+                            <textarea name="message" id="message" rows="10" cols="60" placeholder="e.g. type your message"></textarea>
+                        </p>
+                    </fieldset>
+                    <p>
+                        <button type="reset">reset</button>
+                        <button type="submit">Sumbit</button>
+                    </p>
+                </form>
+            </section>
+            <section id="location">
+                <h2>Our Location</h2>
+                <address>
+                    Shop # 8, Block K2 Block K 2 <br> Wapda Town Phase 1 Lahore, Pakistan
+                </address>
+                <br><br>
+                Phone No:
+                <a href="tel:+92 3012345678">+923012345678</a>
+
+            </section>
+
+         </article>
     </main>
     <hr>
     <footer>
