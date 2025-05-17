@@ -35,4 +35,4 @@ This project is a practice-based HTML website design project. The goal of this p
 - Include JavaScript for interactivity.
 - Optimize for mobile responsiveness.
 
-Happy coding! :)
+Happy coding! 
